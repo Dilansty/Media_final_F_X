@@ -171,6 +171,8 @@ public class MediaFinalApp extends Application {
             Optional<ButtonType> botaoPressionado = aleta.showAndWait();
 
             if (botaoPressionado.get()==ButtonType.YES){
+             Alert alerta2 = new Alert(Alert.AlertType.INFORMATION, "Até Logo!");
+             alerta2.showAndWait();
             System.exit(0);
             }
 
